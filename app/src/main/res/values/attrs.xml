@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovePage">
+        <attr name="android:textSize" />
+        <attr name="android:textColor"/>
+        <attr name="movex" format="integer"/>
+        <attr name="movey" format="integer" />
+        <attr name="radicus" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="SeekBarWithText">
+        <attr name="icon_min" format="reference"/>
+        <attr name="icon_max" format="reference"/>
+        <attr name="show_text" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchWithText">
+        <attr name="min_text" format="reference"/>
+        <attr name="max_text" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CenterSeekBar">
+        <attr name="maxProgress" format="integer"/> <!--max progress -->
+        <attr name="minProgress" format="integer"/> <!-- min minProgress -->
+        <attr name="width" format="dimension"/><!-- seekbar width needs <= seekbar veiw layout_width -->
+        <attr name="centerState" format="boolean"/> <!-- 是否 0 在中心 -->
+        <attr name="backColor" format="color"/><!-- 背景 拉条杆 底色 -->
+        <attr name="backHeight" format="dimension"/><!-- 背景 拉条杆 height -->
+        <attr name="progressColor" format="color"/><!--progress 进度 颜色-->
+        <attr name="progressHeight" format="dimension"/><!--progress height -->
+        <attr name="progressMinusColor" format="color"/><!-- 0在中心 时  负数 的颜色 -->
+        <attr name="progress" format="integer"/><!--当前 progress-->
+        <attr name="thumbNormalRadius" format="dimension"/><!-- thumb 圆 半径 -->
+        <attr name="thumbColor" format="color"/><!-- thumb 圆 颜色 -->
+        <attr name="textBackColor" format="color"/><!--进度字体 背景 颜色-->
+        <attr name="textBackRadius" format="dimension"/><!--进度字体背景 圆角矩形 弧度-->
+        <attr name="thumbOffset" format="integer"/>
+    </declare-styleable>
+</resources>
