@@ -1,0 +1,74 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.google.protobuf'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        minSdkVersion 28
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/src'
+        main.java.srcDirs += 'src/main/src_flags'
+        main.java.srcDirs += 'src/main/protos/src'
+        main.java.srcDirs += 'src/main/src_ui_overrides'
+        main.proto.srcDirs += 'src/main/proto_overrides'
+        main.proto.srcDirs += 'src/main/protos'
+        main.res.srcDirs += 'src/main/res'
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.google.protobuf:protobuf-java:3.11.4'
+    implementation 'com.google.protobuf.nano:protobuf-javanano:3.2.0rc2'
+    implementation 'com.android.support:support-dynamic-animation:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+
+}
+
+protobuf {
+    protoc {
+        artifact = 'com.google.protobuf:protoc:3.1.0'
+    }
+
+    generateProtoTasks {
+        all().each { task ->
+            task.builtins {
+                remove java
+            }
+            task.builtins {
+                java {}
+                // Add cpp output without any option.
+                // DO NOT omit the braces if you want this builtin to be added.
+                cpp {}
+            }
+        }
+    }
+
+    generatedFilesBaseDir = "$projectDir/src/generated"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_sub_page_padding_left_right">70dp</dimen>
+    <dimen name="setting_row_height">103dp</dimen>
+    <dimen name="setting_system_row_margin_start">140dp</dimen>
+    <dimen name="setting_system_row_margin_end">100dp</dimen>
+</resources>

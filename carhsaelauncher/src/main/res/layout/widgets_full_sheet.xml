@@ -13,21 +13,21 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.hsae.launcher.widget.WidgetsFullSheet
+<com.demo.launcher.widget.WidgetsFullSheet
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:theme="?attr/widgetsTheme" >
 
-    <com.hsae.launcher.views.TopRoundedCornerView
+    <com.demo.launcher.views.TopRoundedCornerView
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="?android:attr/colorPrimary"
         android:elevation="4dp">
 
-        <com.hsae.launcher.widget.WidgetsRecyclerView
+        <com.demo.launcher.widget.WidgetsRecyclerView
             android:id="@+id/widgets_list_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -41,12 +41,12 @@
             android:layout_alignParentTop="true"
             android:layout_marginEnd="@dimen/fastscroll_popup_margin" />
 
-        <com.hsae.launcher.views.RecyclerViewFastScroller
+        <com.demo.launcher.views.RecyclerViewFastScroller
             android:id="@+id/fast_scroller"
             android:layout_width="@dimen/fastscroll_width"
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_marginEnd="@dimen/fastscroll_end_margin" />
-    </com.hsae.launcher.views.TopRoundedCornerView>
-</com.hsae.launcher.widget.WidgetsFullSheet>
+    </com.demo.launcher.views.TopRoundedCornerView>
+</com.demo.launcher.widget.WidgetsFullSheet>

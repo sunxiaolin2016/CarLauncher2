@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.hsae.launcher">
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.demo.launcher">
 
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
     <!-- Messaging, [All Apps], Dialer -->

@@ -149,7 +149,7 @@ void protobuf_AddDesc_launcher_5fdump_2eproto_impl() {
     "R\n\rContainerType\022\031\n\025UNKNOWN_CONTAINERTYP"
     "E\020\000\022\r\n\tWORKSPACE\020\001\022\013\n\007HOTSEAT\020\002\022\n\n\006FOLDE"
     "R\020\003*!\n\010UserType\022\013\n\007DEFAULT\020\000\022\010\n\004WORK\020\001B,"
-    "\n\027com.hsae.launcher.modelB\021LauncherDumpP"
+    "\n\027com.demo.launcher.modelB\021LauncherDumpP"
     "roto", 684);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "launcher_dump.proto", &protobuf_RegisterTypes);

@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.hsae.launcher.graphics.ShadowDrawable
+<com.demo.launcher.graphics.ShadowDrawable
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ic_setting"
     android:elevation="@dimen/drop_target_shadow_elevation" />

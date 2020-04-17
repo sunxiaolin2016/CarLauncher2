@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wireless_charge_tab_str">
+        <item>关闭</item>
+        <item>图像+声音</item>
+        <item>图像提示</item>
+        <item>声音提示</item>
+    </string-array>
+    
+    <string-array name="drive_mode_tab_str">
+        <item>舒适模式</item>
+        <item>运动模式</item>
+        <item>节能模式</item>
+    </string-array>
+
+    <string-array name="tired_hint_tab_str">
+        <item>关闭</item>
+        <item>报警音提醒</item>
+        <item>语音提醒</item>
+        <item>报警+语音</item>
+    </string-array>
+
+    <string-array name="collision_alarm_tab_str">
+        <item>关闭</item>
+        <item>图像提醒</item>
+        <item>图像+声音</item>
+        <item>图像+声音+触觉</item>
+    </string-array>
+
+    <string-array name="sensitive_tab_str">
+        <item>低</item>
+        <item>中</item>
+        <item>高</item>
+    </string-array>
+
+    <string-array name="time_span_tab_str">
+        <item>关闭</item>
+        <item>15秒</item>
+        <item>20秒</item>
+        <item>30秒</item>
+    </string-array>
+
+    <string-array name="unlock_tab_str">
+        <item>关闭</item>
+        <item>闪灯</item>
+        <item>鸣笛</item>
+        <item>闪灯+鸣笛</item>
+    </string-array>
+
+    <string-array name="unlock_door_str">
+        <item>驾驶员侧</item>
+        <item>所有车门</item>
+    </string-array>
+    <string-array name="array_distance">
+        <item>@string/kilometre</item>
+        <item>@string/metre</item>
+    </string-array>
+    <string-array name="array_temperature">
+        <item>@string/temperter_one</item>
+        <item>@string/temperter_two</item>
+    </string-array>
+    <string-array name="array_fuel">
+        <item>@string/fuel_one</item>
+        <item>@string/fuel_two</item>
+        <item>@string/fuel_three</item>
+        <item>@string/fuel_four</item>
+    </string-array>
+    <string-array name="array_capacity">
+        <item>@string/capacity_one</item>
+        <item>@string/capacity_two</item>
+        <item>@string/capacity_three</item>
+    </string-array>
+    <string-array name="array_speed">
+        <item>@string/speed_one</item>
+        <item>@string/speed_two</item>
+    </string-array>
+    <string-array name="array_tire">
+        <item>@string/tire_one</item>
+        <item>@string/tire_two</item>
+        <item>@string/tire_three</item>
+    </string-array>
+    <string-array name="array_language">
+        <item>@string/chinese</item>
+        <item>@string/english</item>
+    </string-array>
+    <string-array name="array_sound">
+        <item>@string/effect_1</item>
+        <item>@string/effect_2</item>
+        <item>@string/effect_3</item>
+        <item>@string/effect_4</item>
+        <item>@string/effect_5</item>
+        <item>@string/effect_6</item>
+        <item>@string/effect_7</item>
+        <item>@string/effect_8</item>
+        <item>@string/effect_9</item>
+    </string-array>
+</resources>

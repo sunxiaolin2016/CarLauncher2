@@ -1,4 +1,4 @@
-package com.hsae.launcher;
+package com.demo.launcher;
 
 import org.junit.Test;
 

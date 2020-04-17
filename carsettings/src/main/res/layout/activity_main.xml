@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="170dp"
+    android:orientation="vertical">
+
+    <!--    <android.support.v4.view.ViewPager-->
+    <!--        android:id="@+id/homePager"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"/>-->
+
+    <com.demo.carsettings.widget.pager.ViewPager
+        android:id="@+id/homePager"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/text_indicator111"
+        android:text="-1"
+        android:textSize="40sp"
+        android:visibility="gone"
+        android:textColor="#ff0"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/indicator_can"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="12dp">
+
+        <!--        <include layout="@layout/layout_indicator"/>-->
+        <!--        <include layout="@layout/layout_indicator"/>-->
+        <!--        <include layout="@layout/layout_indicator"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img1"-->
+        <!--            android:background="#f00"-->
+        <!--            android:scaleType="fitXY"-->
+        <!--            android:src="@mipmap/icon_page_switch_on_bg"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"/>-->
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img2"-->
+        <!--            android:background="#0f0"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="100dp"/>-->
+        <!--        <ImageView-->
+        <!--            android:id="@+id/img3"-->
+        <!--            android:background="#00f"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="100dp"/>-->
+        <!--        -->
+    </LinearLayout>
+</RelativeLayout>

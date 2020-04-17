@@ -14,13 +14,13 @@
      limitations under the License.
 -->
 
-<com.hsae.launcher.folder.FolderIcon
+<com.demo.launcher.folder.FolderIcon
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:focusable="true" >
-    <com.hsae.launcher.views.DoubleShadowBubbleTextView
+    <com.demo.launcher.views.DoubleShadowBubbleTextView
         style="@style/BaseIcon.Workspace"
         android:id="@+id/folder_icon_name"
         android:focusable="false"
@@ -29,4 +29,4 @@
         android:textColor = "#fff"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</com.hsae.launcher.folder.FolderIcon>
+</com.demo.launcher.folder.FolderIcon>

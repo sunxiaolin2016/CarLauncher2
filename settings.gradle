@@ -1,1 +1,3 @@
 include ':app',':carhsaelauncher'
+include ':launcher3'
+include ':carsettings'

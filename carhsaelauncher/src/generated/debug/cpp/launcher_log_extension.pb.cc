@@ -113,7 +113,7 @@ void protobuf_AddDesc_launcher_5flog_5fextension_2eproto_impl() {
   ::google::protobuf::DescriptorPool::InternalAddGeneratedFile(
     "\n\034launcher_log_extension.proto\022\tusereven"
     "t\"\030\n\026LauncherEventExtension\"\021\n\017TargetExt"
-    "ensionB4\n\033com.hsae.launcher.usereventB\025L"
+    "ensionB4\n\033com.demo.launcher.usereventB\025L"
     "auncherLogExtensions", 140);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "launcher_log_extension.proto", &protobuf_RegisterTypes);

@@ -15,9 +15,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.demo.carlauncher.widget.pager.ViewPager;
-import com.hsae.launcher.Launcher;
-import com.hsae.launcher.Workspace;
-import com.hsae.launcher.plug.ExtraIndicatorListener;
+import com.demo.launcher.Launcher;
+import com.demo.launcher.Workspace;
+import com.demo.launcher.plug.ExtraIndicatorListener;
 import java.util.ArrayList;
 
 public class MainHomeActivity extends ActivityGroup {
@@ -99,7 +99,7 @@ public class MainHomeActivity extends ActivityGroup {
         LocalActivityManager lam = getLocalActivityManager();
 
         View launcherWindowView = lam.startActivity("launcherWindow",
-                new Intent(MainHomeActivity.this, com.hsae.launcher.Launcher.class)).getDecorView();
+                new Intent(MainHomeActivity.this, com.demo.launcher.Launcher.class)).getDecorView();
         View settingWindowView = lam.startActivity("CarSettingActivity",
                 new Intent(MainHomeActivity.this, com.demo.carlauncher.CarSettingActivity.class)).getDecorView();
 
@@ -158,5 +158,4 @@ public class MainHomeActivity extends ActivityGroup {
             imageView2.setImageResource(R.mipmap.icon_page_switch_on_bg);
         }
     }
-
 }

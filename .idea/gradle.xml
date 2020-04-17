@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/carhsaelauncher" />
+            <option value="$PROJECT_DIR$/carsettings" />
+            <option value="$PROJECT_DIR$/launcher3" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

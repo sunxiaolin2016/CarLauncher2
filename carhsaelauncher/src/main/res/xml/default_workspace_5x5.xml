@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.hsae.launcher">
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.demo.launcher">
 
     <appwidget
         launcher:container="-100"

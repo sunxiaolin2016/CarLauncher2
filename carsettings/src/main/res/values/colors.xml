@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22222D</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="delcolor">#28273A</color>
+    <color name="black">#ff000000</color>
+    <color name="deliver_color">#121017</color>
+    <color name="main_btn_color">#121017</color>
+    <color name="main_btn_color_unclick">#363644</color>
+    <color name="backGround">#22222D</color>
+    <color name="editText">#656575</color>
+     <color name="ic_launcher_background">#ff222222</color>
+</resources>

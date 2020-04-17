@@ -244,7 +244,7 @@ void protobuf_AddDesc_launcher_5flog_2eproto_impl() {
     "PLIT_SCREEN_TARGET\020\020*e\n\007TipType\022\020\n\014DEFAU"
     "LT_NONE\020\000\022\n\n\006BOUNCE\020\001\022\021\n\rSWIPE_UP_TEXT\020\002"
     "\022\024\n\020QUICK_SCRUB_TEXT\020\003\022\023\n\017PREDICTION_TEX"
-    "T\020\004B/\n\033com.hsae.launcher.usereventB\020Laun"
+    "T\020\004B/\n\033com.demo.launcher.usereventB\020Laun"
     "cherLogProto", 2452);
   ::google::protobuf::MessageFactory::InternalRegisterGeneratedFile(
     "launcher_log.proto", &protobuf_RegisterTypes);
